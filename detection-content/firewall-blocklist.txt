@@ -1,0 +1,22 @@
+# BadBox – Known Malicious IPs and Domains for Blocking
+# Add these to perimeter firewall, DNS sinkhole, or UTM systems
+
+# Known C2 IPs
+45.145.67.103
+103.82.132.187
+91.219.236.84
+
+# Malicious domains
+android-sync.net
+firmware-update.androidhub.net
+sync-services.appdevapi.net
+cdn.smarttv-updates.org
+
+# Suspicious APK download domains
+apk-updater.stream
+updates.androidshell.net
+mirror.droidinstallers.biz
+
+# Generic wildcard suggestions (if supported)
+*.android-sync.net
+*.firmware-update.androidhub.net
